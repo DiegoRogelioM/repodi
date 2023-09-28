@@ -18,6 +18,18 @@ h1 {
     height: 100px;
   }
   
+  .logo {
+    width: 15%;
+    height: 100%
+    }
+    
+    .navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+    }
+
   header {
     border: solid 3px red;
     border-radius: 16px;
