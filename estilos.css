@@ -1,7 +1,75 @@
-h2{ 
-    color:mediumblue 
+h1 {
+    color: #0691B4;
+    background-color: blueviolet;
+    border: solid 3px blue;
+    margin: 0;
+  }
+  
+  h4 {
+    color: red;
+  }
+  
+  body {
+    background-color: rgb(83, 83, 83);
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  header {
+    border: solid 3px red;
+    border-radius: 16px;
+  }
+
+  .header {
+    margin-top: 20px;
+    font-size: 16px;
+    height: 80px;
+    width: 100%;
+    background-color: #c3c3c3;
+    font-family: 'Mooli', sans-serif;
+    }
+    
+    .header > * {
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+  button{
+    border:unset
+    background-color:chartreuse ;
+    cursor: pointer;
+    min-height: 34px;
+    min-width: 68px;
+    border-radius: 7px;
 }
-button{
-    color:black
-    background-color:azure
+button:hover{
+    background-color: rgba(255, 213, 0, 1);
+}
+.primarybutton{
+    background-color:rgb(123, 123, 218) ;
+    border-color:rgb(18, 219, 226) ;
+}
+.secondarybutton{
+    background-color:rgb(229, 255, 0) ;
+    border-color:rgb(114, 139, 0) ;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    display: inline;
+}
+li a {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+}
+li:hover{
+    background-color: rgba(255, 213, 0, 1);
 }
