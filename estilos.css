@@ -30,28 +30,13 @@ h1 {
     font-weight: 500;
     }
 
-  header {
-    border: solid 3px red;
-    border-radius: 16px;
-  }
-
-  .header {
-    margin-top: 20px;
-    font-size: 16px;
-    height: 80px;
-    width: 100%;
-    background-color: #c3c3c3;
-    font-family: 'Mooli', sans-serif;
-    }
-    
     .header > * {
     display: inline-block;
     vertical-align: middle;
     }
 
   button{
-    border:unset
-    background-color:chartreuse ;
+    border:unset;
     cursor: pointer;
     min-height: 34px;
     min-width: 68px;
@@ -84,4 +69,20 @@ li a {
 }
 li:hover{
     background-color: rgba(255, 213, 0, 1);
+}
+.promo{
+ display:flex;
+ width: 70%;
+ margin: 100px auto;
+ align-items:center;
+}
+.fixed-header{
+ position: fixed;
+ top: 0px;
+ left: 0;
+ right: 0;
+ background-color: #fffbf7;
+}
+.main{
+  margin-top: 143px;
 }
