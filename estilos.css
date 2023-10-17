@@ -117,50 +117,78 @@ b {
 
 
 
-.animal-section{
+.animal-section {
   display: grid;
   height: 630px;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   margin: 200px 10px 10px 10px;
   grid-gap: 30px;
 }
-.article-animal-container{
- text-align: center;
- border-radius: 7px;
-}
-.article-animal-container > img{
-width: 200px;
-height: 200px;
+
+.article-animal-container {
+  text-align: center;
+  border-radius: 7px;
 }
 
-h3{
-font-family: arial;
+.article-animal-container>img {
+  width: 200px;
+  height: 200px;
 }
 
-.animal-section > .article-animal-container:nth-child(1){
+h3 {
+  font-family: arial;
+}
+
+.animal-section>.article-animal-container:nth-child(1) {
   background-color: red;
 }
-.animal-section > .article-animal-container:nth-child(2){
+
+.animal-section>.article-animal-container:nth-child(2) {
   background-color: blue;
 }
-.animal-section > .article-animal-container:nth-child(3){
+
+.animal-section>.article-animal-container:nth-child(3) {
   background-color: green;
 }
-.animal-section > .article-animal-container:nth-child(4){
+
+.animal-section>.article-animal-container:nth-child(4) {
   background-color: yellow;
 }
-.animal-section > .article-animal-container:nth-child(5){
+
+.animal-section>.article-animal-container:nth-child(5) {
   background-color: blueviolet;
 }
-.animal-section > .article-animal-container:nth-child(6){
+
+.animal-section>.article-animal-container:nth-child(6) {
   background-color: gray;
 }
-.animal-section > .article-animal-container:nth-child(7){
+
+.animal-section>.article-animal-container:nth-child(7) {
   background-color: brown;
 }
-.animal-section > .article-animal-container:nth-child(8){
+
+.animal-section>.article-animal-container:nth-child(8) {
   background-color: cyan;
 }
-.animal-section > .article-animal-container:nth-child(9){
+
+.animal-section>.article-animal-container:nth-child(9) {
   background-color: rgb(248, 149, 0);
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 425px) {
+
+  .navbar, .actions,.img2 {
+    display: none;
+  }
+  html {
+    background-color: yellow;
+  }
+  .animal-section {grid-template: repeat(2, 1fr) / repeat(4, 1fr)}
+}
+
+@media (max-width: 375px) {
+  .article-animal-container>div:nth-child(2)>img {
+    width: 200px;
+  }
 }
